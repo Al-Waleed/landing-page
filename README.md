@@ -1,0 +1,1 @@
+creating a landing page from scratch
