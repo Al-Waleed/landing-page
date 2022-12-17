@@ -8,7 +8,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-flow: column wrap;
-    height: 500px;
+    min-height: 500px;
     justify-content: space-between;
     padding: 0 72px;
     padding-bottom: 72px;
@@ -39,6 +39,7 @@ button {
 .hero-image {
     width: 400px;
     height: 267px;
+    border-radius: 8px;
 }
 .hero-first,
 .hero-second {
@@ -54,4 +55,37 @@ ul {
 ul {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.info-image {
+    width: 175px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 24px;
+}
+.second-part {
+    display: flex;
+    height: 500px;
+    padding: 0 72px;
+    justify-content: center;
+    gap: 24px;
+}
+.second-part p {
+    text-align: center;
+    color: #4b5563;
+    font-size: 18px;
+}
+.second-part-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 8px;
+    max-width: 175px;
 }
