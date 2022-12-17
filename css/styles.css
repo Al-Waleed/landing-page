@@ -99,10 +99,28 @@ ul {
 .quote p {
     font-size: 36px;
     font-style: italic;
-    margin-bottom: 0git;
+    margin-bottom: 0;
 }
 .quote small {
     font-size: 18px;
     font-weight: 700;
     text-align: right;
+}
+.blue-box {
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 172px;
+    padding: 48px;
+    color: #ffffff;
+
+}
+.action h2,
+.action p {
+    margin: 0;
+}
+.blue-box button {
+    border: 2px solid #ffffff;
+    font-weight: 700;
 }
