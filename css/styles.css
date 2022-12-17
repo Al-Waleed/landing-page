@@ -1,0 +1,57 @@
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    margin: 0;
+}
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: column wrap;
+    height: 500px;
+    justify-content: space-between;
+    padding: 0 72px;
+    padding-bottom: 72px;
+}
+.hero-second {
+    gap: 300px;
+    align-items: flex-end;
+}
+.hero-first h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.container h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+button {
+    color: #ffffff;
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+}
+
+.hero-image {
+    width: 400px;
+    height: 267px;
+}
+.hero-first,
+.hero-second {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+.container p,
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+}
